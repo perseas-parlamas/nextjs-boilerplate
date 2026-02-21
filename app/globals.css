@@ -5,6 +5,11 @@
   --foreground: #171717;
 }
 
+:root {
+  --logo-color: #5977EF;
+  --logo-color-dark: #3A5AD9;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
