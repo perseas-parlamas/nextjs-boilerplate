@@ -38,7 +38,6 @@ export default function Home() {
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium hover:underline" style={{ color: '#000000' }}
             >
-              Learning
             </a>
           </p>
         </div>
