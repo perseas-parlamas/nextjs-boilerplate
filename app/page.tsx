@@ -2,7 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans" style={{ backgroundColor: '#5977EF' }}>
+    <div style={{ 
+      backgroundColor: '#5977EF',
+      minHeight: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontFamily: 'sans-serif'
+    }}>
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white sm:items-start">
         <Image
           className="" //dark:invert
