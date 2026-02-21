@@ -3,15 +3,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div style={{ 
-      backgroundColor: '#5977EF !important',
-      minHeight: '100vh',
-      width: '100%',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      margin: 0,
-      padding: 0
-    }}>
+  backgroundColor: '#5977EF',
+  minHeight: '100vh',
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+}}>
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white sm:items-start">
         <Image
           className="" //dark:invert
