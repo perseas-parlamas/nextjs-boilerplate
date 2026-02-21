@@ -25,21 +25,18 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             Swapping cars just got effortless. And it’s a fraction of what you’d burn on a rental. Seriously, check it out.
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            
-            Check our LinkedIn Page{" "}
-            <a
-              href="www.linkedin.com/in/perseas-jan-parlamas-694791205"
-              className="font-medium hover:underline" style={{ color: '#5977EF' }}
-            >
-              Templates
-            </a>{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium hover:underline" style={{ color: '#000000' }}
-            >
-            </a>
-          </p>
+         <p className="max-w-md text-lg leading-8 text-black">
+  Check our{" "}
+  <a
+    href="https://www.linkedin.com/in/perseas-jan-parlamas-694791205"
+    className="font-medium hover:underline"
+    style={{ color: '#000000' }}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn Page
+  </a>
+</p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
