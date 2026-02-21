@@ -25,7 +25,7 @@
 }
 
 body {
-  background: var(--background);
+  /* background: var(--background); */  /* ← COMMENTED THIS LINE OUT BECAUSE PAGE WOULD NOT TURN PURPLE*/
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
