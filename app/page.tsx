@@ -29,19 +29,17 @@ export default function Home() {
             
             Check our LinkedIn Page{" "}
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href="www.linkedin.com/in/perseas-jan-parlamas-694791205"
               className="font-medium hover:underline" style={{ color: '#5977EF' }}
             >
               Templates
             </a>{" "}
-            or the{" "}
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium hover:underline" style={{ color: '#5977EF' }}
+              className="font-medium hover:underline" style={{ color: '#000000' }}
             >
               Learning
-            </a>{" "}
-            center.
+            </a>
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
