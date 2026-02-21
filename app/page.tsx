@@ -28,7 +28,7 @@ export default function Home() {
          <p className="max-w-md text-lg leading-8 text-black">
   Check our{" "}
   <a
-    href="https://www.linkedin.com/in/perseas-jan-parlamas-694791205"
+    href="https://www.linkedin.com/company/roadstyx/about/"
     className="font-medium hover:underline"
     style={{ color: '#000000' }}
     target="_blank"
