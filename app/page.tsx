@@ -26,7 +26,8 @@ export default function Home() {
             Swapping cars just got effortless. And it’s a fraction of what you’d burn on a rental. Seriously, check it out.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+            
+            Check our LinkedIn Page{" "}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium hover:underline" style={{ color: '#5977EF' }}
