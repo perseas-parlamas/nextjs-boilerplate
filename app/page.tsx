@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/public/LogoRoad.PNG"
-          alt="Next.js logo"
+          alt="RoadStyx Logo"
           width={100}
           height={100}
           priority
