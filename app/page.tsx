@@ -12,7 +12,7 @@ export default function Home() {
   alignItems: 'center',
   justifyContent: 'center'
 }}>
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-16 px-16 sm:items-start sm:py-24">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center gap-4 py-16 px-16 sm:items-start">
         <Image
           className="" //dark:invert
           src="/logocropped.png"
