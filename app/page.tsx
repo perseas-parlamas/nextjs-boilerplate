@@ -38,31 +38,6 @@ export default function Home() {
   </a>
 </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-           className="flex h-12 w-full items-center justify-center gap-2 rounded-full px-5 text-white transition-colors md:w-[158px]" style={{ backgroundColor: '#5977EF' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#3A5AD9'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#5977EF'}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border-2 px-5 transition-colors bg-white md:w-[158px]" style={{ borderColor: '#5977EF', color: '#5977EF' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#5977EF'; e.currentTarget.style.color = 'white'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#5977EF'; }}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
       </main>
     </div>
   );
